@@ -25,6 +25,9 @@ html, body {
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
     color: var(--text-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* General */
@@ -297,6 +300,9 @@ transition: opacity 0.2s ease-in;
     row-gap: 40px;
     text-align: center;
 }
+.content-list a {
+    color: var(--accent);
+}
 
 .content-list__item {
     font-size: 18px;
@@ -310,6 +316,7 @@ transition: opacity 0.2s ease-in;
 /* Footer  */
 
 footer{
+    margin-top: auto;
    padding: 60px 0 50px;
    background-color: var(--dark-bg);
    color:var(--header-text)
